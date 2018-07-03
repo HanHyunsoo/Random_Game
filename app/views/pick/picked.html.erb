@@ -1,0 +1,7 @@
+<p>로또번호 : <%= @random %> 당신이 뽑은 번호 : <%= @my %></p>
+<% if @random == @my %>
+    <img id="1" src="/assets/3.png" alt>
+<%# elsif @random != @my, @random =< 4 @my %>
+<% else %>
+    <img id="3" src="/assets/4.png" alt>
+<% end %>
